@@ -1,10 +1,15 @@
 {
   "resources": [
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},"order":0,},
+    {"id":{"name":"tile_background","path":"tilesets/tile_background/tile_background.yy",},"order":0,},
+    {"id":{"name":"obj_background","path":"objects/obj_background/obj_background.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
   ],
   "Options": [
     {"name":"macOS","path":"options/mac/options_mac.yy",},
     {"name":"Main","path":"options/main/options_main.yy",},
+    {"name":"Linux","path":"options/linux/options_linux.yy",},
+    {"name":"Windows","path":"options/windows/options_windows.yy",},
   ],
   "isDnDProject": false,
   "isEcma": false,
@@ -40,7 +45,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "Edelwyns-Cure",
