@@ -18,15 +18,19 @@ if(move != 0){
 	image_xscale = 1*move;
 }
 
-//Jump
-if(jumpKey){
-	if(instance_place(x, y+1, obj_block)){
-		vspeed = jumpHeight;
-	}
+if(place_meeting(x, y+1, obj_block)){
+	grav = 0;
+}else{
+	grav = 0.4;
 }
 
-//Check if player is grounded else apply gravity
-
+vspeed = vspeed + grav;
+//Jump
+if(jumpKey){
+	if(place_meeting(x, y+1, obj_block)){
+		vspeed = jumpHeight + grav;
+	}
+}
 
 
 /*

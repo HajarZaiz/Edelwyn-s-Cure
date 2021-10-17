@@ -14,5 +14,6 @@ enum playerState{
 
 state = playerState.idle;
 */
+grav = 0.4;
 sprintSpeed = 4;
 jumpHeight = -10;
