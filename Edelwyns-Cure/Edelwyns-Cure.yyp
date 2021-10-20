@@ -2,10 +2,16 @@
   "resources": [
     {"id":{"name":"CharacterIdleSprite","path":"sprites/CharacterIdleSprite/CharacterIdleSprite.yy",},"order":1,},
     {"id":{"name":"GroundTileset","path":"tilesets/GroundTileset/GroundTileset.yy",},"order":0,},
+    {"id":{"name":"spr_leverup","path":"sprites/spr_leverup/spr_leverup.yy",},"order":0,},
     {"id":{"name":"PlayerUtilsScript","path":"scripts/PlayerUtilsScript/PlayerUtilsScript.yy",},"order":0,},
+    {"id":{"name":"obj_Scoreboard","path":"objects/obj_Scoreboard/obj_Scoreboard.yy",},"order":3,},
     {"id":{"name":"PlayerObject","path":"objects/PlayerObject/PlayerObject.yy",},"order":0,},
     {"id":{"name":"CharacterRunSprite","path":"sprites/CharacterRunSprite/CharacterRunSprite.yy",},"order":0,},
     {"id":{"name":"GroundTilesetSprite","path":"sprites/GroundTilesetSprite/GroundTilesetSprite.yy",},"order":0,},
+    {"id":{"name":"obj_HealthRune","path":"objects/obj_HealthRune/obj_HealthRune.yy",},"order":2,},
+    {"id":{"name":"obj_lever","path":"objects/obj_lever/obj_lever.yy",},"order":1,},
+    {"id":{"name":"spr_Scoreboard","path":"sprites/spr_Scoreboard/spr_Scoreboard.yy",},"order":2,},
+    {"id":{"name":"spr_HealthRune","path":"sprites/spr_HealthRune/spr_HealthRune.yy",},"order":1,},
     {"id":{"name":"BackgroundSprite","path":"sprites/BackgroundSprite/BackgroundSprite.yy",},"order":2,},
     {"id":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},"order":0,},
   ],
@@ -42,6 +48,7 @@
     {"folderPath":"folders/Extensions.yy","order":14,"resourceVersion":"1.0","name":"Extensions","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/Tileset Sprites.yy","order":1,"resourceVersion":"1.0","name":"Tileset Sprites","tags":[],"resourceType":"GMFolder",},
     {"folderPath":"folders/Sprites/CharacterSprites.yy","order":3,"resourceVersion":"1.0","name":"CharacterSprites","tags":[],"resourceType":"GMFolder",},
+    {"folderPath":"folders/Sprites/ObjectSprites.yy","order":4,"resourceVersion":"1.0","name":"ObjectSprites","tags":[],"resourceType":"GMFolder",},
   ],
   "AudioGroups": [
     {"targets":-1,"resourceVersion":"1.3","name":"audiogroup_default","resourceType":"GMAudioGroup",},
@@ -51,7 +58,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "Edelwyns-Cure",
