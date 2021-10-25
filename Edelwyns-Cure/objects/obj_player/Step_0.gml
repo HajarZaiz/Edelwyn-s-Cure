@@ -64,7 +64,8 @@ if (blockBelow && (acceleration_y > 0 || vspeed > 0)) {
     
     if (acceleration_y > 0) acceleration_y = 0;
     if (vspeed > 0) vspeed = 0;
-    state &= ~PlayerState.Jumping & ~PlayerState.DoubleJumping;
+    state &= ~PlayerState.Jumping 
+	state &= ~PlayerState.DoubleJumping;
     update_player_sprite(self);
 }
 else if (!blockBelow) {
@@ -112,4 +113,16 @@ x = clamp(x, sprite_width/2, room_width - sprite_width/2);
 
 if (y > room_height - sprite_height/2) {
     room_restart();
+}
+
+// --------------- Attack ---------------
+
+//Melee Attack
+if(melee){
+	instance_create_depth(x, y, 100, obj_weapon);
+}
+
+//Ranged Attack
+if(ranged){
+	
 }

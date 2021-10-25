@@ -31,10 +31,10 @@ function update_player_sprite(player) {
 			player.sprite_index = CharacterIdleSprite;
 			return;
 		case PlayerState.MeleeAttacking:
-			// TODO - Set Melee Attacking Sprite
+			player.sprite_index = CharacterMeleeSprite;
 			return;
 		case PlayerState.RangedAttacking:
-			// TODO - Set Ranged Attacking Sprite
+			player.sprite_index = CharacterRangedSprite;
 			return;
 		case PlayerState.Sprinting:
 			player.sprite_index = CharacterRunSprite;

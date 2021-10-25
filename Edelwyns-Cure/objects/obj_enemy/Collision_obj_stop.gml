@@ -1,0 +1,2 @@
+walk_hspd *= -1;
+image_xscale *= -1;
