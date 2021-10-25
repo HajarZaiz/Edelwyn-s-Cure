@@ -4,6 +4,7 @@
     {"id":{"name":"CharacterJumpSprite","path":"sprites/CharacterJumpSprite/CharacterJumpSprite.yy",},"order":4,},
     {"id":{"name":"obj_Death","path":"objects/obj_Death/obj_Death.yy",},"order":5,},
     {"id":{"name":"spr_fireball","path":"sprites/spr_fireball/spr_fireball.yy",},"order":5,},
+    {"id":{"name":"obj_PlayerDeath","path":"objects/obj_PlayerDeath/obj_PlayerDeath.yy",},"order":10,},
     {"id":{"name":"GroundTileset","path":"tilesets/GroundTileset/GroundTileset.yy",},"order":0,},
     {"id":{"name":"spr_leverup","path":"sprites/spr_leverup/spr_leverup.yy",},"order":0,},
     {"id":{"name":"spr_spikes","path":"sprites/spr_spikes/spr_spikes.yy",},"order":4,},
