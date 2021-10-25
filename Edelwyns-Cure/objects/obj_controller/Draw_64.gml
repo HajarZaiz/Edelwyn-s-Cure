@@ -2,11 +2,11 @@
 // You can write your code in this editor
 global.game_over = false;
 draw_set_colour($FFBFFBFF)
-draw_rectangle(50, 5, 150, 45, false)
+
 
 /*TODO Write Lives code here */
 for( var i = 0; i < lives; i++){
-	draw_sprite(spr_life,0,(50 + 24 * i),15)
+	draw_sprite(spr_life,0,(50+24 * i),fa_left+30)
 }
 
 

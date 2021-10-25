@@ -4,6 +4,7 @@
     {"id":{"name":"CharacterJumpSprite","path":"sprites/CharacterJumpSprite/CharacterJumpSprite.yy",},"order":4,},
     {"id":{"name":"spr_potion1","path":"sprites/spr_potion1/spr_potion1.yy",},"order":7,},
     {"id":{"name":"obj_Death","path":"objects/obj_Death/obj_Death.yy",},"order":5,},
+    {"id":{"name":"spr_life","path":"sprites/spr_life/spr_life.yy",},"order":8,},
     {"id":{"name":"spr_fireball","path":"sprites/spr_fireball/spr_fireball.yy",},"order":5,},
     {"id":{"name":"obj_PlayerDeath","path":"objects/obj_PlayerDeath/obj_PlayerDeath.yy",},"order":10,},
     {"id":{"name":"GroundTileset","path":"tilesets/GroundTileset/GroundTileset.yy",},"order":0,},
