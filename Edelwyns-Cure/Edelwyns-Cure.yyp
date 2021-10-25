@@ -1,6 +1,7 @@
 {
   "resources": [
     {"id":{"name":"CharacterIdleSprite","path":"sprites/CharacterIdleSprite/CharacterIdleSprite.yy",},"order":1,},
+    {"id":{"name":"CharacterJumpSprite","path":"sprites/CharacterJumpSprite/CharacterJumpSprite.yy",},"order":4,},
     {"id":{"name":"obj_Death","path":"objects/obj_Death/obj_Death.yy",},"order":5,},
     {"id":{"name":"spr_fireball","path":"sprites/spr_fireball/spr_fireball.yy",},"order":5,},
     {"id":{"name":"GroundTileset","path":"tilesets/GroundTileset/GroundTileset.yy",},"order":0,},
@@ -11,6 +12,7 @@
     {"id":{"name":"EnemyRunSprite","path":"sprites/EnemyRunSprite/EnemyRunSprite.yy",},"order":0,},
     {"id":{"name":"obj_weapon","path":"objects/obj_weapon/obj_weapon.yy",},"order":8,},
     {"id":{"name":"obj_Scoreboard","path":"objects/obj_Scoreboard/obj_Scoreboard.yy",},"order":3,},
+    {"id":{"name":"CharacterDeathSprite","path":"sprites/CharacterDeathSprite/CharacterDeathSprite.yy",},"order":5,},
     {"id":{"name":"CharacterMeleeSprite","path":"sprites/CharacterMeleeSprite/CharacterMeleeSprite.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"CharacterRunSprite","path":"sprites/CharacterRunSprite/CharacterRunSprite.yy",},"order":0,},

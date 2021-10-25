@@ -115,14 +115,29 @@ if (y > room_height - sprite_height/2) {
     room_restart();
 }
 
-// --------------- Attack ---------------
+// --------------- Attacks ---------------
 
 //Melee Attack
 if(melee){
+	//Set state
+	
+	//Create instance of invisible weapon
 	instance_create_depth(x, y, 100, obj_weapon);
+	
+	//update_player_sprite(self);
 }
 
 //Ranged Attack
 if(ranged){
+	//Set state
 	
+	//Create instance of invisible weapon
+	if(canFire){
+		canFire = false;
+		alarm[0] = 17;
+		fireball = instance_create_depth(x, y, 100, obj_fireball);
+		//Same orientation as player
+		fireball.hspeed = image_xscale*fireball.hspd;
+	}
+	//update_player_sprite(self);
 }
