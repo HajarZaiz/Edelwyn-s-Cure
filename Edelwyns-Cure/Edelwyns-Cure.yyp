@@ -2,6 +2,7 @@
   "resources": [
     {"id":{"name":"CharacterIdleSprite","path":"sprites/CharacterIdleSprite/CharacterIdleSprite.yy",},"order":1,},
     {"id":{"name":"CharacterJumpSprite","path":"sprites/CharacterJumpSprite/CharacterJumpSprite.yy",},"order":4,},
+    {"id":{"name":"spr_potion1","path":"sprites/spr_potion1/spr_potion1.yy",},"order":7,},
     {"id":{"name":"obj_Death","path":"objects/obj_Death/obj_Death.yy",},"order":5,},
     {"id":{"name":"spr_fireball","path":"sprites/spr_fireball/spr_fireball.yy",},"order":5,},
     {"id":{"name":"obj_PlayerDeath","path":"objects/obj_PlayerDeath/obj_PlayerDeath.yy",},"order":10,},
@@ -17,6 +18,7 @@
     {"id":{"name":"CharacterMeleeSprite","path":"sprites/CharacterMeleeSprite/CharacterMeleeSprite.yy",},"order":2,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"CharacterRunSprite","path":"sprites/CharacterRunSprite/CharacterRunSprite.yy",},"order":0,},
+    {"id":{"name":"obj_potion1","path":"objects/obj_potion1/obj_potion1.yy",},"order":11,},
     {"id":{"name":"spr_box","path":"sprites/spr_box/spr_box.yy",},"order":3,},
     {"id":{"name":"weapon","path":"sprites/weapon/weapon.yy",},"order":6,},
     {"id":{"name":"GroundTilesetSprite","path":"sprites/GroundTilesetSprite/GroundTilesetSprite.yy",},"order":0,},
@@ -28,6 +30,7 @@
     {"id":{"name":"spr_Scoreboard","path":"sprites/spr_Scoreboard/spr_Scoreboard.yy",},"order":2,},
     {"id":{"name":"spr_HealthRune","path":"sprites/spr_HealthRune/spr_HealthRune.yy",},"order":1,},
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},"order":5,},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":12,},
     {"id":{"name":"BackgroundSprite","path":"sprites/BackgroundSprite/BackgroundSprite.yy",},"order":1,},
     {"id":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},"order":6,},
     {"id":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},"order":0,},
@@ -76,7 +79,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "Edelwyns-Cure",
