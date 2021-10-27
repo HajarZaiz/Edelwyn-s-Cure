@@ -3,7 +3,9 @@
 image_xscale *= -1;
 walk_hspd *= -1;
 
+instance_destroy(self)
+score += 10
 lives -= 1;
 if lives <= 0{
-	room_restart()
+   room_restart()
 }
