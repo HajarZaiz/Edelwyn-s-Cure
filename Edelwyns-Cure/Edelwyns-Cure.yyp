@@ -30,6 +30,7 @@
     {"id":{"name":"obj_enemy","path":"objects/obj_enemy/obj_enemy.yy",},"order":7,},
     {"id":{"name":"spr_Scoreboard","path":"sprites/spr_Scoreboard/spr_Scoreboard.yy",},"order":2,},
     {"id":{"name":"spr_HealthRune","path":"sprites/spr_HealthRune/spr_HealthRune.yy",},"order":1,},
+    {"id":{"name":"Menu","path":"rooms/Menu/Menu.yy",},"order":0,},
     {"id":{"name":"Sprite15","path":"sprites/Sprite15/Sprite15.yy",},"order":5,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":12,},
     {"id":{"name":"BackgroundSprite","path":"sprites/BackgroundSprite/BackgroundSprite.yy",},"order":1,},
@@ -51,6 +52,7 @@
   },
   "RoomOrderNodes": [
     {"roomId":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},},
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
@@ -80,7 +82,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.4.580",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "Edelwyns-Cure",
