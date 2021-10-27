@@ -129,7 +129,7 @@ if(melee){
 	//Create instance of invisible weapon
 	instance_create_depth(x, y, 100, obj_weapon);
 	
-	//update_player_sprite(self);
+	//update_player_sprite(self) done in weapon;
 }
 
 //Ranged Attack
@@ -145,5 +145,5 @@ if(ranged){
 		//Same orientation as player
 		fireball.hspeed = image_xscale*fireball.hspd;
 	}
-	//update_player_sprite(self);
+	//update_player_sprite(self) in fireball;
 }
