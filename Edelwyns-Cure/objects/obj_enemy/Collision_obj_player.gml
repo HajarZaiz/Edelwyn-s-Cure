@@ -5,5 +5,4 @@ walk_hspd *= -1;
 //Don't destroy player mid air
 if(abs(y-obj_player.y) < 10){
 	instance_destroy(other);
-	lives -= 1;
 }

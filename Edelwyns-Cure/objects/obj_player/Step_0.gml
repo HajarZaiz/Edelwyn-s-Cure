@@ -116,9 +116,7 @@ x = clamp(x, sprite_width/2, room_width - sprite_width/2);
 // --------------- Life Loss ---------------
 
 if (y > room_height - sprite_height/2) {
-	lives = lives - 1;
-    room_restart();
-	
+    instance_destroy(self);
 }
 
 // --------------- Attacks ---------------
