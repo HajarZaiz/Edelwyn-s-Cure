@@ -16,6 +16,7 @@
     {"id":{"name":"spr_fireball","path":"sprites/spr_fireball/spr_fireball.yy",},"order":5,},
     {"id":{"name":"obj_PlayerDeath","path":"objects/obj_PlayerDeath/obj_PlayerDeath.yy",},"order":10,},
     {"id":{"name":"spr_potion2","path":"sprites/spr_potion2/spr_potion2.yy",},"order":11,},
+    {"id":{"name":"obj_persistant","path":"objects/obj_persistant/obj_persistant.yy",},"order":20,},
     {"id":{"name":"GroundTileset","path":"tilesets/GroundTileset/GroundTileset.yy",},"order":0,},
     {"id":{"name":"spr_textbox","path":"sprites/spr_textbox/spr_textbox.yy",},"order":9,},
     {"id":{"name":"HealthSprite","path":"sprites/HealthSprite/HealthSprite.yy",},"order":10,},
@@ -47,7 +48,6 @@
     {"id":{"name":"ControlsPage","path":"rooms/ControlsPage/ControlsPage.yy",},"order":2,},
     {"id":{"name":"obj_lever","path":"objects/obj_lever/obj_lever.yy",},"order":1,},
     {"id":{"name":"GameWinSprite","path":"sprites/GameWinSprite/GameWinSprite.yy",},"order":5,},
-    {"id":{"name":"obj_resumeBtn","path":"objects/obj_resumeBtn/obj_resumeBtn.yy",},"order":4,},
     {"id":{"name":"CharacterRangedSprite","path":"sprites/CharacterRangedSprite/CharacterRangedSprite.yy",},"order":3,},
     {"id":{"name":"PauseBtnSprite","path":"sprites/PauseBtnSprite/PauseBtnSprite.yy",},"order":4,},
     {"id":{"name":"obj_startBtn","path":"objects/obj_startBtn/obj_startBtn.yy",},"order":0,},
@@ -64,6 +64,7 @@
     {"id":{"name":"obj_fireball","path":"objects/obj_fireball/obj_fireball.yy",},"order":6,},
     {"id":{"name":"ButtonSprite","path":"sprites/ButtonSprite/ButtonSprite.yy",},"order":7,},
     {"id":{"name":"MainMenuSprite","path":"sprites/MainMenuSprite/MainMenuSprite.yy",},"order":1,},
+    {"id":{"name":"BackgroundMusic","path":"sounds/BackgroundMusic/BackgroundMusic.yy",},"order":0,},
     {"id":{"name":"GameRoom","path":"rooms/GameRoom/GameRoom.yy",},"order":0,},
   ],
   "Options": [
