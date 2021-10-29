@@ -1,3 +1,4 @@
 instance_destroy(other);
 instance_destroy();
-score += 50;
+//Increase score
+score += 5;
