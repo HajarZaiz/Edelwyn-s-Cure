@@ -40,7 +40,7 @@ function update_player_sprite(player) {
 			player.sprite_index = CharacterRunSprite;
 			return;
 		case PlayerState.Jumping: case PlayerState.DoubleJumping:
-			// TODO - Set Jumping Sprite
+			player.sprite_index = CharacterJumpSprite;
 			return;
 	}
 }

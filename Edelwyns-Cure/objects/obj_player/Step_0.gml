@@ -31,7 +31,8 @@ if (jump && state & PlayerState.Jumping == 0 &&
     state & PlayerState.DoubleJumping == 0) {
     
     state |= PlayerState.Jumping;
-    
+    update_player_sprite(self);
+	
     vspeed -= jump_height * delta;
 	
 	jump = false;
@@ -44,6 +45,7 @@ if (jump && state & PlayerState.Jumping &&
     // Remove jumping state and add double jumping state
     state &= ~PlayerState.Jumping;
     state |= PlayerState.DoubleJumping;
+	update_player_sprite(self);
     
     vspeed -= jump_height * delta;
 }
@@ -122,14 +124,14 @@ if (y > room_height - sprite_height/2) {
 // --------------- Attacks ---------------
 
 //Melee Attack
-if(melee){
+if(melee && state & PlayerState.MeleeAttacking == 0) {
 	//Set state
 	state |= PlayerState.MeleeAttacking;
 	
 	//Create instance of invisible weapon
 	instance_create_depth(x, y, 100, obj_weapon);
 	
-	//update_player_sprite(self) done in weapon;
+	update_player_sprite(self);
 }
 
 //Ranged Attack
@@ -143,7 +145,7 @@ if(ranged){
 		alarm[0] = 17;
 		fireball = instance_create_depth(x, y, 100, obj_fireball);
 		//Same orientation as player
-		fireball.hspeed = image_xscale*fireball.hspd;
+		fireball.hspeed = image_xscale * fireball.hspd;
 	}
-	//update_player_sprite(self) in fireball;
+	update_player_sprite(self);
 }
