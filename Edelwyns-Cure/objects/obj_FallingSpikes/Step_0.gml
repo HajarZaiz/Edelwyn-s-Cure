@@ -7,7 +7,8 @@ if(instance_exists(obj_player)){
 		blockBelow = tilemap_get_at_pixel(tileset, x, y + sprite_height/2 - 50) & tile_index_mask;
 		if(blockBelow){
 			vspeed = 0;
-			//Add dust or something
+			//Destroy or disable collision
+			instance_destroy();
 		}
 	}
 }
