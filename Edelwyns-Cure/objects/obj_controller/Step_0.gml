@@ -8,3 +8,10 @@ if(paused){
 }else{
 	instance_activate_all();
 }
+
+//Go to win screen
+if(instance_exists(obj_player)){
+	if(obj_player.hasPotion1 && obj_player.hasPotion2){
+		room_goto(WinScreen);
+	}
+}

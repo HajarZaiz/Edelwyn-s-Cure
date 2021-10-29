@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0b83f050-f6f9-488c-b880-1191f47da6b9","path":"sprites/ControlsSprite/ControlsSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0b83f050-f6f9-488c-b880-1191f47da6b9","path":"sprites/ControlsSprite/ControlsSprite.yy",},"LayerId":{"name":"1f6a55b5-01ee-403b-b92b-222b1d851c3c","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","name":"0b83f050-f6f9-488c-b880-1191f47da6b9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"7a4e18c6-4269-47c8-a035-fc9d542c32b1","path":"sprites/CreditsSprite/CreditsSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"7a4e18c6-4269-47c8-a035-fc9d542c32b1","path":"sprites/CreditsSprite/CreditsSprite.yy",},"LayerId":{"name":"7caf0ea3-5627-4cde-9503-264a26153563","path":"sprites/CreditsSprite/CreditsSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"CreditsSprite","path":"sprites/CreditsSprite/CreditsSprite.yy",},"resourceVersion":"1.0","name":"7a4e18c6-4269-47c8-a035-fc9d542c32b1","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},
+    "spriteId": {"name":"CreditsSprite","path":"sprites/CreditsSprite/CreditsSprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c463853e-bcec-4d41-b511-07842e42e3e2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b83f050-f6f9-488c-b880-1191f47da6b9","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"d96e8495-6793-406f-9d3a-d1d45086421f","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"7a4e18c6-4269-47c8-a035-fc9d542c32b1","path":"sprites/CreditsSprite/CreditsSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 540,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},
+    "parent": {"name":"CreditsSprite","path":"sprites/CreditsSprite/CreditsSprite.yy",},
     "resourceVersion": "1.3",
-    "name": "ControlsSprite",
+    "name": "CreditsSprite",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f6a55b5-01ee-403b-b92b-222b1d851c3c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"7caf0ea3-5627-4cde-9503-264a26153563","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/GUISprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ControlsSprite",
+  "name": "CreditsSprite",
   "tags": [],
   "resourceType": "GMSprite",
 }

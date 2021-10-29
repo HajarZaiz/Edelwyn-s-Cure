@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0b83f050-f6f9-488c-b880-1191f47da6b9","path":"sprites/ControlsSprite/ControlsSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0b83f050-f6f9-488c-b880-1191f47da6b9","path":"sprites/ControlsSprite/ControlsSprite.yy",},"LayerId":{"name":"1f6a55b5-01ee-403b-b92b-222b1d851c3c","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","name":"0b83f050-f6f9-488c-b880-1191f47da6b9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"2695839d-8f96-4425-88ca-b2174673b6a2","path":"sprites/GameWinSprite/GameWinSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"2695839d-8f96-4425-88ca-b2174673b6a2","path":"sprites/GameWinSprite/GameWinSprite.yy",},"LayerId":{"name":"9382252a-5521-43db-ac6c-6ac387b27e0c","path":"sprites/GameWinSprite/GameWinSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"GameWinSprite","path":"sprites/GameWinSprite/GameWinSprite.yy",},"resourceVersion":"1.0","name":"2695839d-8f96-4425-88ca-b2174673b6a2","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},
+    "spriteId": {"name":"GameWinSprite","path":"sprites/GameWinSprite/GameWinSprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c463853e-bcec-4d41-b511-07842e42e3e2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b83f050-f6f9-488c-b880-1191f47da6b9","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"0a4e7989-0832-470b-ae48-1d687e4e50ea","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"2695839d-8f96-4425-88ca-b2174673b6a2","path":"sprites/GameWinSprite/GameWinSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 540,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},
+    "parent": {"name":"GameWinSprite","path":"sprites/GameWinSprite/GameWinSprite.yy",},
     "resourceVersion": "1.3",
-    "name": "ControlsSprite",
+    "name": "GameWinSprite",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f6a55b5-01ee-403b-b92b-222b1d851c3c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"9382252a-5521-43db-ac6c-6ac387b27e0c","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/GUISprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ControlsSprite",
+  "name": "GameWinSprite",
   "tags": [],
   "resourceType": "GMSprite",
 }

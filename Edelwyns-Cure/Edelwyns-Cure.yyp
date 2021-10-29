@@ -1,10 +1,13 @@
 {
   "resources": [
+    {"id":{"name":"GameOverScreen","path":"rooms/GameOverScreen/GameOverScreen.yy",},"order":6,},
     {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},"order":18,},
     {"id":{"name":"spr_fallingSpikes","path":"sprites/spr_fallingSpikes/spr_fallingSpikes.yy",},"order":10,},
     {"id":{"name":"obj_continueBtn","path":"objects/obj_continueBtn/obj_continueBtn.yy",},"order":5,},
+    {"id":{"name":"GameOverSprite","path":"sprites/GameOverSprite/GameOverSprite.yy",},"order":7,},
     {"id":{"name":"obj_menuBtn","path":"objects/obj_menuBtn/obj_menuBtn.yy",},"order":3,},
     {"id":{"name":"InfectedSprite","path":"sprites/InfectedSprite/InfectedSprite.yy",},"order":0,},
+    {"id":{"name":"WinScreen","path":"rooms/WinScreen/WinScreen.yy",},"order":5,},
     {"id":{"name":"CharacterIdleSprite","path":"sprites/CharacterIdleSprite/CharacterIdleSprite.yy",},"order":1,},
     {"id":{"name":"CharacterJumpSprite","path":"sprites/CharacterJumpSprite/CharacterJumpSprite.yy",},"order":4,},
     {"id":{"name":"spr_potion1","path":"sprites/spr_potion1/spr_potion1.yy",},"order":7,},
@@ -31,6 +34,7 @@
     {"id":{"name":"obj_potion2","path":"objects/obj_potion2/obj_potion2.yy",},"order":19,},
     {"id":{"name":"CharacterMeleeSprite","path":"sprites/CharacterMeleeSprite/CharacterMeleeSprite.yy",},"order":2,},
     {"id":{"name":"obj_creditsBtn","path":"objects/obj_creditsBtn/obj_creditsBtn.yy",},"order":2,},
+    {"id":{"name":"CreditsSprite","path":"sprites/CreditsSprite/CreditsSprite.yy",},"order":6,},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"order":0,},
     {"id":{"name":"CharacterRunSprite","path":"sprites/CharacterRunSprite/CharacterRunSprite.yy",},"order":0,},
     {"id":{"name":"obj_potion1","path":"objects/obj_potion1/obj_potion1.yy",},"order":11,},
@@ -42,6 +46,7 @@
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},"order":1,},
     {"id":{"name":"ControlsPage","path":"rooms/ControlsPage/ControlsPage.yy",},"order":2,},
     {"id":{"name":"obj_lever","path":"objects/obj_lever/obj_lever.yy",},"order":1,},
+    {"id":{"name":"GameWinSprite","path":"sprites/GameWinSprite/GameWinSprite.yy",},"order":5,},
     {"id":{"name":"obj_resumeBtn","path":"objects/obj_resumeBtn/obj_resumeBtn.yy",},"order":4,},
     {"id":{"name":"CharacterRangedSprite","path":"sprites/CharacterRangedSprite/CharacterRangedSprite.yy",},"order":3,},
     {"id":{"name":"PauseBtnSprite","path":"sprites/PauseBtnSprite/PauseBtnSprite.yy",},"order":4,},
@@ -80,6 +85,8 @@
     {"roomId":{"name":"ControlsPage","path":"rooms/ControlsPage/ControlsPage.yy",},},
     {"roomId":{"name":"CreditsPage","path":"rooms/CreditsPage/CreditsPage.yy",},},
     {"roomId":{"name":"InfectedPage","path":"rooms/InfectedPage/InfectedPage.yy",},},
+    {"roomId":{"name":"WinScreen","path":"rooms/WinScreen/WinScreen.yy",},},
+    {"roomId":{"name":"GameOverScreen","path":"rooms/GameOverScreen/GameOverScreen.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},

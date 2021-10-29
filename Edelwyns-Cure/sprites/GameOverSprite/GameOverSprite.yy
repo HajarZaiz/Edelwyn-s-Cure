@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"0b83f050-f6f9-488c-b880-1191f47da6b9","path":"sprites/ControlsSprite/ControlsSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"0b83f050-f6f9-488c-b880-1191f47da6b9","path":"sprites/ControlsSprite/ControlsSprite.yy",},"LayerId":{"name":"1f6a55b5-01ee-403b-b92b-222b1d851c3c","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","name":"0b83f050-f6f9-488c-b880-1191f47da6b9","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"e10ec46d-8768-4642-b768-817b828535f8","path":"sprites/GameOverSprite/GameOverSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"e10ec46d-8768-4642-b768-817b828535f8","path":"sprites/GameOverSprite/GameOverSprite.yy",},"LayerId":{"name":"320edf08-1644-4431-87ab-051279bbb43b","path":"sprites/GameOverSprite/GameOverSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"GameOverSprite","path":"sprites/GameOverSprite/GameOverSprite.yy",},"resourceVersion":"1.0","name":"e10ec46d-8768-4642-b768-817b828535f8","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},
+    "spriteId": {"name":"GameOverSprite","path":"sprites/GameOverSprite/GameOverSprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"c463853e-bcec-4d41-b511-07842e42e3e2","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"0b83f050-f6f9-488c-b880-1191f47da6b9","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"395be100-619d-441d-9249-d2c44af91daa","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"e10ec46d-8768-4642-b768-817b828535f8","path":"sprites/GameOverSprite/GameOverSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,14 +58,14 @@
     "yorigin": 540,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},
+    "parent": {"name":"GameOverSprite","path":"sprites/GameOverSprite/GameOverSprite.yy",},
     "resourceVersion": "1.3",
-    "name": "ControlsSprite",
+    "name": "GameOverSprite",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"1f6a55b5-01ee-403b-b92b-222b1d851c3c","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"320edf08-1644-4431-87ab-051279bbb43b","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
@@ -73,7 +73,7 @@
     "path": "folders/Sprites/GUISprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ControlsSprite",
+  "name": "GameOverSprite",
   "tags": [],
   "resourceType": "GMSprite",
 }
