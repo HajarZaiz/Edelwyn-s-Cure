@@ -12,3 +12,13 @@ if(paused){
 	draw_set_halign(fa_middle);
 	draw_text(960, 700, "Press P to Resume");
 }
+
+//Draw potions collected
+if(instance_exists(obj_player)){
+	if(obj_player.hasPotion1){
+		draw_sprite(spr_potion1, 0, 1800, 100);
+	}
+	if(obj_player.hasPotion2){
+		draw_sprite(spr_potion2, 0, 1850, 100);
+	}
+}
