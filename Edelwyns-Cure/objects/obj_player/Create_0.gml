@@ -9,3 +9,7 @@ canFire = true;
 // Initial potion states
 hasPotion1 = false;
 hasPotion2 = false;
+
+// Play background music and level start
+
+audio_play_sound(LevelBeginSound, 10, false);

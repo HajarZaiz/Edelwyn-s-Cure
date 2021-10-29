@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.7,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "BackgroundMusic.mp3",
-  "duration": 49.608,
+  "soundFile": "PlayerDeathSound.ogg",
+  "duration": 1.002358,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "BackgroundMusic",
+  "name": "PlayerDeathSound",
   "tags": [],
   "resourceType": "GMSound",
 }

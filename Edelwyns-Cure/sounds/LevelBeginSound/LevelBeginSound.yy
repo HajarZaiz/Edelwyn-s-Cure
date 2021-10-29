@@ -1,6 +1,6 @@
 {
   "compression": 0,
-  "volume": 0.7,
+  "volume": 1.0,
   "preload": false,
   "bitRate": 128,
   "sampleRate": 44100,
@@ -10,14 +10,14 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "BackgroundMusic.mp3",
-  "duration": 49.608,
+  "soundFile": "LevelBeginSound.ogg",
+  "duration": 0.955737,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",
   },
   "resourceVersion": "1.0",
-  "name": "BackgroundMusic",
+  "name": "LevelBeginSound",
   "tags": [],
   "resourceType": "GMSound",
 }
