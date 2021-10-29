@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Sprite20",
-    "path": "sprites/Sprite20/Sprite20.yy",
+    "name": "GameOverSprite",
+    "path": "sprites/GameOverSprite/GameOverSprite.yy",
   },
   "solid": false,
   "visible": true,

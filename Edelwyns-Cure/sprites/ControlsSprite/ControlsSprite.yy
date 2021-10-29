@@ -24,12 +24,12 @@
   "gridX": 0,
   "gridY": 0,
   "frames": [
-    {"compositeImage":{"FrameId":{"name":"ba1a40cb-e179-414c-aeb9-de266e0b4c59","path":"sprites/Sprite20/Sprite20.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
-        {"FrameId":{"name":"ba1a40cb-e179-414c-aeb9-de266e0b4c59","path":"sprites/Sprite20/Sprite20.yy",},"LayerId":{"name":"bbdc13e9-42b0-492b-9754-ac9000580376","path":"sprites/Sprite20/Sprite20.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
-      ],"parent":{"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},"resourceVersion":"1.0","name":"ba1a40cb-e179-414c-aeb9-de266e0b4c59","tags":[],"resourceType":"GMSpriteFrame",},
+    {"compositeImage":{"FrameId":{"name":"39ff05f8-2d25-43ff-9aec-1f274ec56cad","path":"sprites/ControlsSprite/ControlsSprite.yy",},"LayerId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
+        {"FrameId":{"name":"39ff05f8-2d25-43ff-9aec-1f274ec56cad","path":"sprites/ControlsSprite/ControlsSprite.yy",},"LayerId":{"name":"d49fac70-7162-43c4-9598-381db998b68d","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},
+      ],"parent":{"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","name":"39ff05f8-2d25-43ff-9aec-1f274ec56cad","tags":[],"resourceType":"GMSpriteFrame",},
   ],
   "sequence": {
-    "spriteId": {"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},
+    "spriteId": {"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},
     "timeUnits": 1,
     "playback": 1,
     "playbackSpeed": 30.0,
@@ -41,7 +41,7 @@
     "moments": {"Keyframes":[],"resourceVersion":"1.0","resourceType":"KeyframeStore<MomentsEventKeyframe>",},
     "tracks": [
       {"name":"frames","spriteId":null,"keyframes":{"Keyframes":[
-            {"id":"fccab08e-8e77-4b5a-b52f-ed4ddecd0fb4","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"ba1a40cb-e179-414c-aeb9-de266e0b4c59","path":"sprites/Sprite20/Sprite20.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
+            {"id":"244dd370-d563-42d1-aa36-6d5a1dc4432b","Key":0.0,"Length":1.0,"Stretch":false,"Disabled":false,"IsCreationKey":false,"Channels":{"0":{"Id":{"name":"39ff05f8-2d25-43ff-9aec-1f274ec56cad","path":"sprites/ControlsSprite/ControlsSprite.yy",},"resourceVersion":"1.0","resourceType":"SpriteFrameKeyframe",},},"resourceVersion":"1.0","resourceType":"Keyframe<SpriteFrameKeyframe>",},
           ],"resourceVersion":"1.0","resourceType":"KeyframeStore<SpriteFrameKeyframe>",},"trackColour":0,"inheritsTrackColour":true,"builtinName":0,"traits":0,"interpolation":1,"tracks":[],"events":[],"modifiers":[],"isCreationTrack":false,"resourceVersion":"1.0","tags":[],"resourceType":"GMSpriteFramesTrack",},
     ],
     "visibleRange": null,
@@ -58,22 +58,22 @@
     "yorigin": 540,
     "eventToFunction": {},
     "eventStubScript": null,
-    "parent": {"name":"Sprite20","path":"sprites/Sprite20/Sprite20.yy",},
+    "parent": {"name":"ControlsSprite","path":"sprites/ControlsSprite/ControlsSprite.yy",},
     "resourceVersion": "1.3",
-    "name": "Sprite20",
+    "name": "ControlsSprite",
     "tags": [],
     "resourceType": "GMSequence",
   },
   "layers": [
-    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"bbdc13e9-42b0-492b-9754-ac9000580376","tags":[],"resourceType":"GMImageLayer",},
+    {"visible":true,"isLocked":false,"blendMode":0,"opacity":100.0,"displayName":"default","resourceVersion":"1.0","name":"d49fac70-7162-43c4-9598-381db998b68d","tags":[],"resourceType":"GMImageLayer",},
   ],
   "nineSlice": null,
   "parent": {
-    "name": "Edelwyns-Cure",
-    "path": "Edelwyns-Cure.yyp",
+    "name": "GUISprites",
+    "path": "folders/Sprites/GUISprites.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Sprite20",
+  "name": "ControlsSprite",
   "tags": [],
   "resourceType": "GMSprite",
 }
