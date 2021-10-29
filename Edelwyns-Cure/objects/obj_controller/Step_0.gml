@@ -1,5 +1,5 @@
 //Pause game
-if( keyboard_check_pressed(ord("P")) || keyboard_check_pressed(vk_escape)){
+if( keyboard_check_pressed(ord("P"))){
     paused = !paused;
 }
 
@@ -16,3 +16,10 @@ if(instance_exists(obj_player)){
 		instance_destroy();
 	}
 }
+
+//Exit game play
+if(keyboard_check_pressed(vk_escape)){
+	instance_destroy(obj_controller);
+	game_end();
+}
+
